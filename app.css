@@ -1,0 +1,69 @@
+body {
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    margin: 10px;
+    width: 80%;
+    max-width: 500px;
+    height: 30px;
+    padding: 10px;
+    align-self: center;
+    border-radius: 20px;
+    border-style: double
+}
+
+button {
+    margin: 10px;
+    width: 40%;
+    max-width: 500px;
+
+    height: 40px;
+    align-self: center;
+    background-color: rgb(40, 156, 40);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+#UI>div{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.validation-text{
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: dashed;
+    border-radius: 10px;
+    margin: 10px;
+    width: 60%;
+    max-width: 500px;
+
+    height: 40px;
+}
+
+.error-text {
+    color: red;
+}
+
+.passed-text{
+    color: rgb(40, 156, 40);
+}
